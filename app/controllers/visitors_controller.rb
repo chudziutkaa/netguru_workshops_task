@@ -1,5 +1,5 @@
 class VisitorsController < ApplicationController
-	expose(:visitor)
+  expose(:visitor)
 
-	before_action :authenticate_user!
+  before_action :authenticate_user!
 end
