@@ -1,7 +1,5 @@
 class VisitorsController < ApplicationController
-	def index
-	end
-end
+	expose(:visitor)
 
 	before_action :authenticate_user!
 end
